@@ -1,7 +1,7 @@
-# Responsiveness Basic Porfolio ✌🏽
+# Building a Wireframe ✅
 # Welcome
-In this project we're going to be building a responsive basic portfolio that will be styled using our own `style.css.`
-Using the ` @media screen ` tags with the `max-width s: 980px, 768px and 640px.`
+
+In this project we will be building a basic wireframe of a web page.
 
 ## Overview
 We use media tags because we dont want any of our content to get cut out when you make your window smaller.
@@ -25,65 +25,7 @@ To make our portfolio responsive, the @media screen tags must be added in your C
 Here is a code snippet of how my media screen tags and my styling looks like:
 
 ``` 
- @media screen and (max-width: 980px) {
-    .container {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      clear: both;
-    }
-    #masthead {
-      position: fixed;
-      z-index: 99;
-      width: 100%;
-      max-width: 960px;
-      margin: 0 0 30px;
-      overflow: auto;
-      color: #ffffff;
-      background: #ffffff;
-      border-bottom: 2px solid #cccccc;
-    }
-  }
 
-  @media screen and (max-width: 768px) {
-    .container {
-      width: 100%;
-      max-width: 768px;
-      margin: 0 auto;
-      clear: both;
-    }
-    #masthead {
-      position: fixed;
-      z-index: 99;
-      width: 100%;
-      max-width: 768px;
-      margin: 0 0 30px;
-      overflow: auto;
-      color: #ffffff;
-      background: #ffffff;
-      border-bottom: 2px solid #cccccc;
-    }
-  }
-
-  @media screen and (max-width: 640px) {
-    .container {
-      width: 100%;
-      max-width: 640px;
-      margin: 0 auto;
-      clear: both;
-    }
-    #masthead {
-      position: static;
-      z-index: 99;
-      width: 100%;
-      max-width: 640px;
-      margin: 0 0 30px;
-      overflow: auto;
-      color: #ffffff;
-      background: #ffffff;
-      border-bottom: 2px solid #cccccc;
-    }
-  }
 
 ```
 
